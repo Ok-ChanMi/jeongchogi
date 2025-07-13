@@ -467,3 +467,195 @@
 //     } 
 // }
 
+// 21년 1회 실기
+// 21. 다음은 JAVA 관한 문제이다. 알맞는 출력값을 작성하시오.
+
+// public class Java {
+//     public static void main(String[] args){
+//         int[][] arr = new int[][] {{45, 50, 75}, {85}};
+//         System.out.println(arr[0].length);
+//         System.out.println(arr[1].length);
+//         System.out.println(arr[0][0]);
+//         System.out.println(arr[0][1]);
+//         System.out.println(arr[1][0]);
+//     }
+// }
+
+// 22년 1회 실기
+// 22. 다음 Java 코드 중에서 밑줄에 들어갈 알맞는 코드를 작성하시오.
+
+// class Car implements Runnable {
+//     int a;
+
+//     public void run() {
+//         System.out.println("message");
+//     }
+// }
+// public class Java {
+//     public static void main(String[] args) {
+//         Thread t1 = new Thread(new ___());
+//         t1.start();
+//     }
+// }
+
+// 23년 3회 실기
+// 23. 다음 자바 코드를 실행할 경우 에러가 발생이 된다. 에러가 발생하는 라인명을 작성하시오.
+
+// class Person {
+//     private String name;
+//     public Person(String val) {
+//         name = val;
+//     }
+//     public static String get() {
+//         return name;
+//     }
+//     public void print() {
+//         System.out.println(name);
+//     }
+// }
+// public class Java {
+//     public static void main(Strint[] args) {
+//         Person obj = new Person("Kim");
+//         obj.print();
+//     }
+// }
+
+// 23년 2회 실기
+// 24. 다음은 JAVA 코드 문제이다.
+// 가지고 있는 돈이 총 4620원일 경우
+// 1000원, 500원, 100원, 10원의 지폐 및 동전을 이용하여 보기의 조건에
+// 맞춰 최소한의 코드를 통해 괄호안을 작성하시오.
+// [보기]
+// 아래 주어진 항목들을 갖고 괄호안의 코드를 작성
+// 변수 : m
+// 연산자 : / , %
+// 괄호 : [ , ] , ( , )
+// 정수 : 1000, 500, 100, 10
+
+// public class Java {
+//     public static void main(String[] args) {
+//         m = 4620;
+
+//         a = (            );
+//         b = (            );
+//         c = (            );
+//         d = (            );
+
+//         System.out.println(a);  // 천원짜리 4장
+//         System.out.println(b);  // 오백원짜리 1개
+//         System.out.println(c);  // 백원짜리 1개
+//         System.out.println(d);  // 십원짜리 2개
+//     }
+// }
+
+// 22년 1회 실기
+// 25. 아래 자바 코드에서 출력되는 값을 작성하시오.
+
+// class A {
+//     int a;
+//     int b;
+// }
+
+// public class Java {
+//     static void func1(A m){
+//         m.a *= 10;
+//     }
+//     static void func2(A m) {
+//         m.a += m.b;
+//     }
+//     public static void main(String[] args) {
+//         A m = new A();
+
+//         m.a = 100;
+//         func1(m);
+//         m.b = m.a;
+//         func2(m);
+
+//         System.out.printf("%d", m.a);
+//     }
+// }
+
+// 20년 4회 실기
+// 26. 다음은 n이 10일 때, 10을 2진수로 변환하는 자바 소스 코드이다. 1,2에 알맞는 값을 적으시오.
+// [출력결과] : 00001010
+
+// public class Java {
+//     public static void main(String[] args) {
+//         int[] a = new int[8];
+//         int i = 0; 
+//         int n = 10;
+//         while (  1.  ) {
+//             a[i++] = (  2. );
+//             n /= 2;
+//         }
+//         for(i=7; i >= 0; i--) {
+//             System.out.println(a[i]);
+//         }
+//     }
+// }
+
+// 21년 3회 실기
+// 27. 다음 Java 코드에 대한 알맞는 출력값을 쓰시오.
+
+// public class Java {
+//     public static void main(String[] args) {
+//         int a = 3, b = 4, c = 3, d = 5;
+//         if ((a == 2 | a == c) & !(c > d) & (1 == b ^ c != d)) {
+//             a = b + c;
+//             if (7 == b ^ c != a) {
+//                 System.out.println(a);
+//             } else{
+//                 System.out.println(b);
+//             }
+//         } else {
+//             a = c + d;
+//             if (7 == c ^ d != a) {
+//                 System.out.println(a);
+//             } else {
+//                 System.out.println(d);
+//             }
+//         }
+//     }
+// }
+
+// 20년 4회 실기
+// 28. 다음은 자바 소스 코드이다. 출력 결과를 보고 , 1,2에 알맞는 값을 적으시오.
+// [출력 결과]
+// 1 4 7 10 13
+// 2 5 8 11 14
+// 3 6 9 12 15
+
+// public class Java {
+//     public static void main(String[] args) {
+//         int[][] a = new int[( 1. )][(  2. )];
+//         for(int i = 0; i < 3; i++) {
+//             for(int j = 0; j < 5; j++) {
+//                 a[i][j] = j*3+(i+1);
+//                 System.out.print(a[i][j]+"");
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
+// 23년 1회 실기
+// 29. 아래 자바 코드에서 출력되는 값을 작성하시오.
+
+// class Static {
+//     public int a = 20;
+//     static int b = 0;
+// }
+// public class Java {
+//     public static void main(String[] args) {
+//         int a;
+//         a = 10;
+//         Static.b = a;
+
+//         Static st = new Static();
+
+//         System.out.println(Static.b++);
+//         System.out.println(st.b);
+//         System.out.println(a);
+//         System.out.print(st.a);
+//     }
+// }
